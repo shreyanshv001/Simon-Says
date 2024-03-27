@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-color: rgb(84, 84, 84);
+}
+
+.btn{
+    height: 8rem;
+    width: 8rem;
+    border: 10px solid black;
+    border-radius: 1.9rem;
+    margin: 13px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.purple{
+    background-color: purple;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
+@media (min-width:450px) {
+    .btn{
+        height: 200px;
+        width: 200px;
+        border: 10px solid black;
+        border-radius: 2rem;
+        margin: 13px;
+    }
+}
